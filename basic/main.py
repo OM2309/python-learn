@@ -18,6 +18,13 @@
 #     file.write("It contains some text.")
 
 # file read
-with open("example.txt", "r") as file:
-    content = file.read()
-    print(content)
+# with open("example.txt", "r") as file:
+#     content = file.read()
+#     print(content)
+
+
+#  file delete
+# import os
+# if os.path.exists("example.txt"):
+#     os.remove("example.txt")
+#     print("File deleted.")
